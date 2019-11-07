@@ -1,0 +1,12 @@
+{
+  "name": "wp-output-buffering",
+  "version": "1.0.0",
+  "description": "=== wp-output-buffering === Contributors: ateekeen.com Stable tag: 1.0.0 Tested up to: 5.2 Requires at least: 4.6",
+  "main": "index.js",
+  "scripts": {
+    "upload": "rsync -avz -e ssh ./ root@paradise.ateekeen.com:/var/www/ateekeen.com/wp-content/plugins/wp-output-buffering/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
